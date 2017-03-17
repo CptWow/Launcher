@@ -1,0 +1,26 @@
+{
+  "minimumVersion" : 1,
+  "packages" : [
+    {
+      "title" : "Vanilla",
+      "name" : "Vanilla",
+      "version" : "2017-03-02-16-08-38",
+      "location" : "vanilla.json",
+      "priority" : 0
+    },
+    {
+      "title" : "Salted 2.2.0",
+      "name" : "Salted 2.2.0",
+      "version" : "2017-02-21-23-24-32",
+      "location" : "salted-2.2.0.json",
+      "priority" : 0
+    },
+    {
+      "title" : "Captive Minecraft",
+      "name" : "Captive Minecraft",
+      "version" : "2017-02-14-18-40-08",
+      "location" : "captive-minecraft.json",
+      "priority" : 0
+    }
+  ]
+}
