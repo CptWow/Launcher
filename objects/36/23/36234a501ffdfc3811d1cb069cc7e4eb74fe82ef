@@ -1,0 +1,8 @@
+//UNCRAFTING GRINDER
+recipes.remove(<cyclicmagic:uncrafting_block>);
+
+recipes.addShaped(<cyclicmagic:uncrafting_block>,[
+[<mekanism:CompressedDiamond>,<ic2:diamond_drill:26>,<mekanism:CompressedDiamond>],
+[<enderio:blockSagMill>,<mikedongles:amulet_dongle>,<enderio:blockSagMill>],
+[<extrautils2:CompressedCobblestone:5>,<neotech:grinder>,<extrautils2:CompressedCobblestone:5>]
+]);
