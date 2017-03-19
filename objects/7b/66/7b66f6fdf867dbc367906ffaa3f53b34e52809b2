@@ -1,0 +1,35 @@
+//LOGIC PRESS
+recipes.remove(<appliedenergistics2:material:15>);
+
+recipes.addShaped(<appliedenergistics2:material:15>,[
+[<minecraft:gold_ingot>,<appliedenergistics2:material:1>,<minecraft:gold_ingot>],
+[<appliedenergistics2:material:1>,<ic2:plate:3>,<appliedenergistics2:material:1>],
+[<minecraft:gold_ingot>,<appliedenergistics2:material:1>,<minecraft:gold_ingot>]
+]);
+
+//ENGINEERING PRESS
+recipes.remove(<appliedenergistics2:material:14>);
+
+recipes.addShaped(<appliedenergistics2:material:14>,[
+[<minecraft:diamond>,<appliedenergistics2:material:1>,<minecraft:diamond>],
+[<appliedenergistics2:material:1>,<ic2:plate:3>,<appliedenergistics2:material:1>],
+[<minecraft:diamond>,<appliedenergistics2:material:1>,<minecraft:diamond>]
+]);
+
+//SILICON PRESS
+recipes.remove(<appliedenergistics2:material:19>);
+
+recipes.addShaped(<appliedenergistics2:material:19>,[
+[<enderio:itemMaterial>,<appliedenergistics2:material:1>,<enderio:itemMaterial>],
+[<appliedenergistics2:material:1>,<ic2:plate:3>,<appliedenergistics2:material:1>],
+[<enderio:itemMaterial>,<appliedenergistics2:material:1>,<enderio:itemMaterial>]
+]);
+
+//CALCULATION PRESS
+recipes.remove(<appliedenergistics2:material:13>);
+
+recipes.addShaped(<appliedenergistics2:material:13>,[
+[<appliedenergistics2:material:10>,<appliedenergistics2:material:1>,<appliedenergistics2:material:10>],
+[<appliedenergistics2:material:1>,<ic2:plate:3>,<appliedenergistics2:material:1>],
+[<appliedenergistics2:material:10>,<appliedenergistics2:material:1>,<appliedenergistics2:material:10>]
+]);

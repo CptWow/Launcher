@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "item": "minecraft:blaze_powder|0",
+      "emc": 384
+    },
+    {
+      "item": "projecte:item.pe_philosophers_stone|0",
+      "emc": 0
+    },
+    {
+      "item": "mikedongles:amulet_dongle|0",
+      "emc": 0
+    }
+  ]
+}
