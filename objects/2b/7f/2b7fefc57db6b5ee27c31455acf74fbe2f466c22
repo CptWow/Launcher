@@ -1,0 +1,527 @@
+//TRANSMUTATION TABLE
+recipes.remove(<projecte:transmutation_table>);
+
+//TRANSMUTATION TABLET
+recipes.remove(<projecte:item.pe_transmutation_tablet>);
+
+//PHILO STONE
+recipes.remove(<projecte:item.pe_philosophers_stone>);
+
+recipes.addShaped(<projecte:item.pe_philosophers_stone>,[
+[<minecraft:redstone_block>,<minecraft:glowstone>,<minecraft:redstone_block>],
+[<minecraft:glowstone>,<mikedongles:amulet_dongle>,<minecraft:glowstone>],
+[<minecraft:redstone_block>,<minecraft:glowstone>,<minecraft:redstone_block>]
+]);
+
+//RED MATTER
+recipes.remove(<projecte:item.pe_matter:1>);
+
+recipes.addShaped(<projecte:item.pe_matter:1>,[
+[<projecte:item.pe_fuel:2>,<projecte:matter_block>,<projecte:item.pe_fuel:2>],
+[<projecte:item.pe_fuel:2>,<projecte:matter_block>,<projecte:item.pe_fuel:2>],
+[<projecte:item.pe_fuel:2>,<projecte:matter_block>,<projecte:item.pe_fuel:2>]
+]);
+
+recipes.addShaped(<projecte:item.pe_matter:1>,[
+[<projecte:item.pe_fuel:2>,<projecte:item.pe_fuel:2>,<projecte:item.pe_fuel:2>],
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>],
+[<projecte:item.pe_fuel:2>,<projecte:item.pe_fuel:2>,<projecte:item.pe_fuel:2>]
+]);
+
+//DARK MATTER PEDESTAL <projecte:dm_pedestal>
+recipes.remove(<projecte:dm_pedestal>);
+
+recipes.addShaped(<projecte:dm_pedestal>,[
+[<projecte:matter_block:1>,<projecte:matter_block>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,<projecte:matter_block>,<projecte:matter_block:1>],
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>]
+]);
+
+
+//ENERGY COLLECTOR MK1 <projecte:collector_mk1>
+recipes.remove(<projecte:collector_mk1>);
+
+recipes.addShaped(<projecte:collector_mk1>,[
+[<minecraft:glowstone>,<projecte:item.pe_matter>,<minecraft:glowstone>],
+[<minecraft:glowstone>,<minecraft:diamond_block>,<minecraft:glowstone>],
+[<minecraft:glowstone>,<minecraft:furnace>,<minecraft:glowstone>]
+]);
+
+//ENERGY COLLECTOR MK2 <projecte:collector_mk2>
+recipes.remove(<projecte:collector_mk2>);
+
+recipes.addShaped(<projecte:collector_mk2>,[
+[<minecraft:glowstone>,<projecte:matter_block>,<minecraft:glowstone>],
+[<minecraft:glowstone>,<projecte:collector_mk1>,<minecraft:glowstone>],
+[<minecraft:glowstone>,<minecraft:glowstone>,<minecraft:glowstone>]
+]);
+
+//ENERGY COLLECTOR MK3 <projecte:collector_mk3>
+recipes.remove(<projecte:collector_mk3>);
+
+recipes.addShaped(<projecte:collector_mk3>,[
+[<minecraft:glowstone>,<projecte:matter_block:1>,<minecraft:glowstone>],
+[<minecraft:glowstone>,<projecte:collector_mk2>,<minecraft:glowstone>],
+[<minecraft:glowstone>,<minecraft:glowstone>,<minecraft:glowstone>]
+]);
+
+//ANTI-MATTER RELAY MK2 <projecte:relay_mk2>
+recipes.remove(<projecte:relay_mk2>);
+
+recipes.addShaped(<projecte:relay_mk2>,[
+[<minecraft:obsidian>,<projecte:matter_block>,<minecraft:obsidian>],
+[<minecraft:obsidian>,<projecte:relay_mk1>,<minecraft:obsidian>],
+[<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]
+]);
+
+//ANTI-MATTER RELAY MK3 <projecte:relay_mk3>
+recipes.remove(<projecte:relay_mk3>);
+
+recipes.addShaped(<projecte:relay_mk3>,[
+[<minecraft:obsidian>,<projecte:matter_block:1>,<minecraft:obsidian>],
+[<minecraft:obsidian>,<projecte:relay_mk2>,<minecraft:obsidian>],
+[<minecraft:obsidian>,<minecraft:obsidian>,<minecraft:obsidian>]
+]);
+
+
+//TOOLS
+
+//DM PICK
+recipes.remove(<projecte:item.pe_dm_pick>);
+
+recipes.addShaped(<projecte:item.pe_dm_pick>,[
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>],
+[null,<minecraft:diamond_block>,null],
+[null,<minecraft:diamond_block>,null]
+]);
+
+//DM AXE
+recipes.remove(<projecte:item.pe_dm_axe>);
+
+recipes.addShaped(<projecte:item.pe_dm_axe>,[
+[<projecte:matter_block>,<projecte:matter_block>],
+[<projecte:matter_block>,<minecraft:diamond_block>],
+[null,<minecraft:diamond_block>]
+]);
+
+//DM SHOVEL
+recipes.remove(<projecte:item.pe_dm_shovel>);
+
+recipes.addShaped(<projecte:item.pe_dm_shovel>,[
+[<projecte:matter_block>],
+[<minecraft:diamond_block>],
+[<minecraft:diamond_block>]
+]);
+
+//DM HOE
+recipes.remove(<projecte:item.pe_dm_hoe>);
+
+recipes.addShaped(<projecte:item.pe_dm_hoe>,[
+[<projecte:matter_block>,<projecte:matter_block>],
+[null,<minecraft:diamond_block>],
+[null,<minecraft:diamond_block>]
+]);
+
+//DM SWORD
+recipes.remove(<projecte:item.pe_dm_sword>);
+
+recipes.addShaped(<projecte:item.pe_dm_sword>,[
+[<projecte:matter_block>],
+[<projecte:matter_block>],
+[<minecraft:diamond_block>]
+]);
+
+//DM SHEARS
+recipes.remove(<projecte:item.pe_dm_shears>);
+
+recipes.addShaped(<projecte:item.pe_dm_shears>,[
+[null,<projecte:matter_block>],
+[<minecraft:diamond_block>,null]
+]);
+
+//DM HAMMER
+recipes.remove(<projecte:item.pe_dm_hammer>);
+
+recipes.addShaped(<projecte:item.pe_dm_hammer>,[
+[<projecte:matter_block>,<minecraft:diamond_block>,<projecte:matter_block>],
+[null,<minecraft:diamond_block>,null],
+[null,<minecraft:diamond_block>,null]
+]);
+
+
+
+
+
+
+
+//RM PICK
+recipes.remove(<projecte:item.pe_rm_pick>);
+
+recipes.addShaped(<projecte:item.pe_rm_pick>,[
+[<projecte:matter_block:1>,<projecte:matter_block:1>,<projecte:matter_block:1>],
+[null,<projecte:item.pe_dm_pick>,null],
+[null,<projecte:matter_block>,null]
+]);
+
+//RM AXE
+recipes.remove(<projecte:item.pe_rm_axe>);
+
+recipes.addShaped(<projecte:item.pe_rm_axe>,[
+[<projecte:matter_block:1>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,<projecte:item.pe_dm_axe>],
+[null,<projecte:matter_block>]
+]);
+
+//RM SHOVEL
+recipes.remove(<projecte:item.pe_rm_shovel>);
+
+recipes.addShaped(<projecte:item.pe_rm_shovel>,[
+[<projecte:matter_block:1>],
+[<projecte:item.pe_dm_shovel>],
+[<projecte:matter_block>]
+]);
+
+//RM HOE
+recipes.remove(<projecte:item.pe_rm_hoe>);
+
+recipes.addShaped(<projecte:item.pe_rm_hoe>,[
+[<projecte:matter_block:1>,<projecte:matter_block:1>],
+[null,<projecte:item.pe_dm_hoe>],
+[null,<projecte:matter_block>]
+]);
+
+//RM SWORD
+recipes.remove(<projecte:item.pe_rm_sword>);
+
+recipes.addShaped(<projecte:item.pe_rm_sword>,[
+[<projecte:matter_block:1>],
+[<projecte:item.pe_dm_sword>],
+[<projecte:matter_block>]
+]);
+
+//RM SHEARS
+recipes.remove(<projecte:item.pe_rm_shears>);
+
+recipes.addShaped(<projecte:item.pe_rm_shears>,[
+[null,<projecte:matter_block:1>],
+[<projecte:item.pe_dm_shears>,null]
+]);
+
+//RM HAMMER
+recipes.remove(<projecte:item.pe_rm_hammer>);
+
+recipes.addShaped(<projecte:item.pe_rm_hammer>,[
+[<projecte:matter_block:1>,<projecte:matter_block>,<projecte:matter_block:1>],
+[null,<projecte:item.pe_dm_hammer>,null],
+[null,<projecte:matter_block>,null]
+]);
+
+//RED KATAR
+recipes.remove(<projecte:item.pe_rm_katar>);
+
+recipes.addShaped(<projecte:item.pe_rm_katar>,[
+[<projecte:item.pe_rm_shears>,<projecte:item.pe_rm_axe>,<projecte:item.pe_rm_sword>],
+[<projecte:item.pe_rm_hoe>,<projecte:matter_block:1>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,<projecte:matter_block:1>,<projecte:matter_block:1>]
+]);
+
+//RED MORNINGTAR
+recipes.remove(<projecte:item.pe_rm_morning_star>);
+
+recipes.addShaped(<projecte:item.pe_rm_morning_star>,[
+[<projecte:item.pe_rm_hammer>,<projecte:item.pe_rm_pick>,<projecte:item.pe_rm_shovel>],
+[<projecte:matter_block:1>,<projecte:matter_block:1>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,<projecte:matter_block:1>,<projecte:matter_block:1>]
+]);
+
+
+//RINGS AND STUFF
+
+//EVERTIDE AMULET
+recipes.remove(<projecte:item.pe_evertide_amulet>);
+ 
+recipes.addShaped(<projecte:item.pe_evertide_amulet>,[
+[<minecraft:water_bucket>,<minecraft:water_bucket>,<minecraft:water_bucket>],
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>],
+[<minecraft:water_bucket>,<minecraft:water_bucket>,<minecraft:water_bucket>]
+]);
+
+//EVERTIDE AMULET
+recipes.remove(<projecte:item.pe_volcanite_amulet>);
+ 
+recipes.addShaped(<projecte:item.pe_volcanite_amulet>,[
+[<minecraft:lava_bucket>,<minecraft:lava_bucket>,<minecraft:lava_bucket>],
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>],
+[<minecraft:lava_bucket>,<minecraft:lava_bucket>,<minecraft:lava_bucket>]
+]);
+
+//IRON BAND
+recipes.remove(<projecte:item.pe_ring_iron_band>);
+ 
+recipes.addShaped(<projecte:item.pe_ring_iron_band>,[
+[<minecraft:iron_block>,<minecraft:iron_block>,<minecraft:iron_block>],
+[<minecraft:iron_block>,<minecraft:lava_bucket>,<minecraft:iron_block>],
+[<minecraft:iron_block>,<minecraft:iron_block>,<minecraft:iron_block>]
+]);
+
+//WATCH OF FLOWING TIME
+recipes.remove(<projecte:item.pe_time_watch>);
+ 
+recipes.addShaped(<projecte:item.pe_time_watch>,[
+[<projecte:matter_block>,<minecraft:glowstone>,<projecte:matter_block>],
+[<minecraft:glowstone>,<minecraft:clock>,<minecraft:glowstone>],
+[<projecte:matter_block>,<minecraft:glowstone>,<projecte:matter_block>]
+]);
+
+//ENERGY CONDENSER
+recipes.remove(<projecte:condenser_mk1>);
+ 
+recipes.addShaped(<projecte:condenser_mk1>,[
+[<projecte:matter_block>,<minecraft:diamond_block>,<projecte:matter_block>],
+[<minecraft:diamond_block>,<projecte:alchemical_chest>,<minecraft:diamond_block>],
+[<projecte:matter_block>,<minecraft:diamond_block>,<projecte:matter_block>]
+]);
+
+
+
+//DM HELMET
+recipes.remove(<projecte:item.pe_dm_armor_3>);
+ 
+recipes.addShaped(<projecte:item.pe_dm_armor_3>,[
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>],
+[<projecte:matter_block>,null,<projecte:matter_block>]
+]);
+
+//DM CHEST
+recipes.remove(<projecte:item.pe_dm_armor_2>);
+ 
+recipes.addShaped(<projecte:item.pe_dm_armor_2>,[
+[<projecte:matter_block>,null,<projecte:matter_block>],
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>],
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>]
+]);
+
+//DM LEGGINS
+recipes.remove(<projecte:item.pe_dm_armor_1>);
+ 
+recipes.addShaped(<projecte:item.pe_dm_armor_1>,[
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>],
+[<projecte:matter_block>,null,<projecte:matter_block>],
+[<projecte:matter_block>,null,<projecte:matter_block>]
+]);
+
+//DM BOOTS
+recipes.remove(<projecte:item.pe_dm_armor_0>);
+ 
+recipes.addShaped(<projecte:item.pe_dm_armor_0>,[
+[<projecte:matter_block>,null,<projecte:matter_block>],
+[<projecte:matter_block>,null,<projecte:matter_block>]
+]);
+
+
+//RM HELMET
+recipes.remove(<projecte:item.pe_rm_armor_3>);
+ 
+recipes.addShaped(<projecte:item.pe_rm_armor_3>,[
+[<projecte:matter_block:1>,<projecte:matter_block:1>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,<projecte:item.pe_dm_armor_3>,<projecte:matter_block:1>]
+]);
+
+//RM CHEST
+recipes.remove(<projecte:item.pe_rm_armor_2>);
+ 
+recipes.addShaped(<projecte:item.pe_rm_armor_2>,[
+[<projecte:matter_block:1>,<projecte:item.pe_dm_armor_2>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,<projecte:matter_block:1>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,<projecte:matter_block:1>,<projecte:matter_block:1>]
+]);
+
+//RM LEGGINS
+recipes.remove(<projecte:item.pe_rm_armor_1>);
+ 
+recipes.addShaped(<projecte:item.pe_rm_armor_1>,[
+[<projecte:matter_block:1>,<projecte:matter_block:1>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,<projecte:item.pe_dm_armor_1>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,null,<projecte:matter_block:1>]
+]);
+
+//RM BOOTS
+recipes.remove(<projecte:item.pe_rm_armor_0>);
+ 
+recipes.addShaped(<projecte:item.pe_rm_armor_0>,[
+[<projecte:matter_block:1>,<projecte:item.pe_dm_armor_0>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,null,<projecte:matter_block:1>]
+]);
+
+
+//BLACK HOLE BAND
+recipes.remove(<projecte:item.pe_black_hole>);
+
+recipes.addShaped(<projecte:item.pe_black_hole>,[
+[<minecraft:string>,<minecraft:string>,<minecraft:string>],
+[<projecte:matter_block>,<projecte:item.pe_ring_iron_band>,<projecte:matter_block>],
+[<minecraft:string>,<minecraft:string>,<minecraft:string>]
+]);
+
+//ARCHANGEL SMITE
+recipes.remove(<projecte:item.pe_archangel_smite>);
+
+recipes.addShaped(<projecte:item.pe_archangel_smite>,[
+[<minecraft:bow>,<minecraft:feather>,<minecraft:bow>],
+[<projecte:matter_block>,<projecte:item.pe_ring_iron_band>,<projecte:matter_block>],
+[<minecraft:bow>,<minecraft:feather>,<minecraft:bow>]
+]);
+
+//HARVEST GOD
+recipes.remove(<projecte:item.pe_harvest_god>);
+
+recipes.addShaped(<projecte:item.pe_harvest_god>,[
+[<ore:treeSapling>,<minecraft:red_flower:*>,<ore:treeSapling>],
+[<projecte:matter_block>,<projecte:item.pe_ring_iron_band>,<projecte:matter_block>],
+[<ore:treeSapling>,<minecraft:red_flower:*>,<ore:treeSapling>]
+]);
+
+
+
+//IGNITION RING
+recipes.remove(<projecte:item.pe_ignition>);
+
+recipes.addShaped(<projecte:item.pe_ignition>,[
+[<minecraft:flint_and_steel>,<projecte:item.pe_fuel:1>,<minecraft:flint_and_steel>],
+[<projecte:matter_block>,<projecte:item.pe_ring_iron_band>,<projecte:matter_block>],
+[<minecraft:flint_and_steel>,<projecte:item.pe_fuel:1>,<minecraft:flint_and_steel>]
+]);
+
+//ZERO RING
+recipes.remove(<projecte:item.pe_zero_ring>);
+
+recipes.addShaped(<projecte:item.pe_zero_ring>,[
+[<minecraft:snow>,<minecraft:snowball>,<minecraft:snow>],
+[<projecte:matter_block>,<projecte:item.pe_ring_iron_band>,<projecte:matter_block>],
+[<minecraft:snow>,<minecraft:snowball>,<minecraft:snow>]
+]);
+
+//SWRG
+recipes.remove(<projecte:item.pe_swrg>);
+
+recipes.addShaped(<projecte:item.pe_swrg>,[
+[<projecte:matter_block>,<minecraft:feather>,<projecte:matter_block>],
+[<minecraft:feather>,<projecte:item.pe_ring_iron_band>,<minecraft:feather>],
+[<projecte:matter_block>,<minecraft:feather>,<projecte:matter_block>]
+]);
+
+//GEM OF ETERNAL DESTINY
+recipes.remove(<projecte:item.pe_gem_density>);
+
+recipes.addShaped(<projecte:item.pe_gem_density>,[
+[<minecraft:diamond_block>,<minecraft:obsidian>,<minecraft:diamond_block>],
+[<projecte:matter_block>,<minecraft:diamond_block>,<projecte:matter_block>],
+[<minecraft:diamond_block>,<minecraft:obsidian>,<minecraft:diamond_block>]
+]);
+
+
+//MERCURIAL EYE
+recipes.remove(<projecte:item.pe_mercurial_eye>);
+
+recipes.addShaped(<projecte:item.pe_mercurial_eye>,[
+[<minecraft:obsidian>,<minecraft:brick_block>,<minecraft:obsidian>],
+[<minecraft:brick_block>,<projecte:matter_block:1>,<minecraft:brick_block>],
+[<minecraft:brick_block>,<minecraft:diamond_block>,<minecraft:brick_block>]
+]);
+
+
+
+//VOID RING
+recipes.remove(<projecte:item.pe_void_ring>);
+
+recipes.addShaped(<projecte:item.pe_void_ring>,[
+[<projecte:item.pe_black_hole>,<projecte:item.pe_gem_density>],
+[<projecte:matter_block:1>,<projecte:matter_block:1>]
+]);
+
+
+
+//RING OF ARCANA
+recipes.remove(<projecte:item.pe_arcana_ring>);
+
+recipes.addShaped(<projecte:item.pe_arcana_ring>,[
+[<projecte:item.pe_zero_ring>,<projecte:item.pe_ignition>,<projecte:item.pe_harvest_god>],
+[<projecte:item.pe_swrg>,<projecte:matter_block:1>,<projecte:matter_block:1>],
+[<projecte:matter_block:1>,<projecte:matter_block:1>,<projecte:matter_block:1>]
+]);
+
+
+//BODY STONE
+recipes.remove(<projecte:item.pe_body_stone>);
+
+recipes.addShaped(<projecte:item.pe_body_stone>,[
+[<minecraft:sugar>,<minecraft:sugar>,<minecraft:sugar>],
+[<projecte:matter_block:1>,<minecraft:redstone_block>,<projecte:matter_block:1>],
+[<minecraft:sugar>,<minecraft:sugar>,<minecraft:sugar>]
+]);
+
+//SOUL STONE
+recipes.remove(<projecte:item.pe_soul_stone>);
+
+recipes.addShaped(<projecte:item.pe_soul_stone>,[
+[<minecraft:glowstone>,<minecraft:glowstone>,<minecraft:glowstone>],
+[<projecte:matter_block:1>,<minecraft:lapis_block>,<projecte:matter_block:1>],
+[<minecraft:glowstone>,<minecraft:glowstone>,<minecraft:glowstone>]
+]);
+
+//MIND STONE
+recipes.remove(<projecte:item.pe_mind_stone>);
+
+recipes.addShaped(<projecte:item.pe_mind_stone>,[
+[<ore:bookshelf>,<ore:bookshelf>,<ore:bookshelf>],
+[<projecte:matter_block:1>,<minecraft:emerald_block>,<projecte:matter_block:1>],
+[<ore:bookshelf>,<ore:bookshelf>,<ore:bookshelf>]
+]);
+
+
+//HYPERKINETIC LENS
+recipes.remove(<projecte:item.pe_hyperkinetic_lens>);
+
+recipes.addShaped(<projecte:item.pe_hyperkinetic_lens>,[
+[<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>],
+[<projecte:matter_block>,<projecte:nova_catalyst>,<projecte:matter_block>],
+[<minecraft:diamond_block>,<minecraft:diamond_block>,<minecraft:diamond_block>]
+]);
+
+
+//CATALITIC LENS
+recipes.remove(<projecte:item.pe_catalitic_lens>);
+
+recipes.addShaped(<projecte:item.pe_catalitic_lens>,[
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>],
+[<projecte:item.pe_destruction_catalyst>,<projecte:matter_block>,<projecte:item.pe_hyperkinetic_lens>],
+[<projecte:matter_block>,<projecte:matter_block>,<projecte:matter_block>]
+]);
+
+
+//EXAMPLES
+// recipes.remove(null);
+ 
+//recipes.addShaped(null,[
+//[null,null,null],
+//[null,null,null],
+//[null,null,null]
+//]);
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
