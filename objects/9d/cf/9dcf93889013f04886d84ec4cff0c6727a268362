@@ -1,0 +1,66 @@
+//RELIQUARY WITCH HAT
+recipes.addShaped(<xreliquary:witch_hat>,
+ [[null, <minecraft:leather>, null],
+  [<minecraft:leather>, <minecraft:emerald>, <minecraft:leather>],
+  [<minecraft:leather>, <minecraft:ender_pearl>, <minecraft:leather>]]);
+
+//QUARK WITCH HAT  
+recipes.addShaped(<quark:witch_hat>,
+ [[null, <minecraft:leather>, null],
+  [<minecraft:leather>, <minecraft:ender_pearl>, <minecraft:leather>],
+  [<minecraft:leather>, <minecraft:emerald>, <minecraft:leather>]]);
+
+//NAMETAG
+recipes.addShaped(<minecraft:name_tag>,
+ [[null, null, <minecraft:string>],
+  [<minecraft:leather>, <minecraft:slime_ball>, null],
+  [<minecraft:paper>, <minecraft:leather>, null]]);
+  
+//SADDLE
+recipes.addShaped(<minecraft:saddle>,
+ [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+  [<minecraft:leather>,null, <minecraft:leather>],
+  [<minecraft:string>,null, <minecraft:string>]]);
+
+//IRIDIUM
+recipes.addShaped(<ic2:misc_resource:1>,
+ [[<mikedongles:slimeball_4>, <ic2:plate:5>, <mikedongles:bones_4>],
+  [<mikedongles:rotten_flesh_4>, <ic2:crafting:3>, <mikedongles:spidereye_4>],
+  [<mikedongles:gunpowder_4>, <ic2:plate:5>, <mikedongles:string_4>]]);
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
