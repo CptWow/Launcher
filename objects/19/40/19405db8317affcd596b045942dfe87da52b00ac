@@ -1,0 +1,6 @@
+[
+    {
+        name:"Nameless",
+        texture:"nameless:textures/gui/madhouse_gui.png",
+        textColor:0
+    },

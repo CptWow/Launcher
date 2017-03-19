@@ -1,0 +1,13 @@
+# Configuration file
+
+explosions {
+    B:affectAir=true
+    I:explosionRadius=127
+    I:explosionRate <
+        2000
+        10000
+     >
+    D:minBlastEffect=0.25
+}
+
+
