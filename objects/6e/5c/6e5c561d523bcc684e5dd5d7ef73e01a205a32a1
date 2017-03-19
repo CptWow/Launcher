@@ -1,0 +1,20 @@
+# Configuration file
+
+_general {
+    # Setting this to true will show info messages on the console. [default: false]
+    B:debugMode=false
+}
+
+
+emotes {
+    # Setting this to false will disable bamGG emote item. [default: true]
+    B:bamGG=true
+
+    # Setting this to false will disable the bamHeart emote item. [default: true]
+    B:bamHeart=true
+
+    # Setting this to false will disable the bamInati emote item. [default: true]
+    B:bamInati=true
+}
+
+
